@@ -36,6 +36,17 @@ public class MyAnimation extends JFrame implements KeyListener{
 			draw.moveRight();
 			System.out.print("Beem");
 		}
+		else if(e.getKeyCode() == KeyEvent.VK_Z){
+			draw.attack();
+			System.out.print("Haaa");
+		}
+		else if(e.getKeyCode() == KeyEvent.VK_X){
+			draw.special();
+			System.out.print("MasterSpark!!!!!!");
+		}
+		else if(e.getKeyCode() == KeyEvent.VK_S){
+			draw.spawnEnemy();
+		}
 	}
 	public void keyTyped(KeyEvent e){
 	
